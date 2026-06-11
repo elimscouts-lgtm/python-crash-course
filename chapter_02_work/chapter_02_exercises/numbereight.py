@@ -1,5 +1,10 @@
+#addition
 print(7+1.0)
+#subtraction
 print(9-1.0)
+#multiplication
 print(4*2.0)
+#division
 print(16/2)
+#exponent
 print(2**3.0)
