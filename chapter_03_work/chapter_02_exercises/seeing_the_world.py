@@ -1,2 +1,11 @@
 places = ["japan", "germany", "new york", "switzerland", "boston"]
-print(sorted(places))
+print(sorted(places, reverse= True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.reverse()
+print(places)
