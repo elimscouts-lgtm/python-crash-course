@@ -39,7 +39,8 @@ print()
 print(f"I can still invite you, {invite_list[0].title()}.")
 print(f"I can still invite you, {invite_list[1].title()}.")
 
-del invite_list[0]
-del invite_list[0]
-
 print (invite_list)
+
+number_of_people = len(invite_list)
+print() 
+print(f"{number_of_people} people are coming to dinner.")
