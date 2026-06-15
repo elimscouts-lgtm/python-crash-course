@@ -1,0 +1,23 @@
+languages = ["english", "spanish", "japanese", "german"]
+print(languages)
+languages.append("chinese")
+languages.append("korean")
+print(languages)
+del languages[5]
+print(languages)
+print(languages.insert(1, "dutch"))
+print(languages)
+print()
+i_dont_know = languages.pop()
+print(f"I don't know {i_dont_know.title()}")
+i_dont_know = languages.pop(2)
+print(f"I don't know {i_dont_know.title()}")
+i_dont_know = languages.pop()
+print(f"I don't know {i_dont_know.title()}")
+languages.sort(reverse = True)
+print()
+print(f"I do know {languages[0]}.")
+print(f"I do know {languages[1]}.")
+print()
+print(f"I know {len(languages)} languages.")
+
