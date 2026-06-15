@@ -20,4 +20,5 @@ print(f"I do know {languages[0]}.")
 print(f"I do know {languages[1]}.")
 print()
 print(f"I know {len(languages)} languages.")
+print(languages[34])
 
