@@ -2,13 +2,44 @@ invite_list = ["archimedes", "jim parsons", "ari gibson"]
 print(f"You are invited to dinner at my house, {invite_list[0].title()}.")
 print(f"You are invited to dinner at my house, {invite_list[1].title()}.")
 print(f"You are invited to dinner at my house, {invite_list[2].title()}.")
-
+print()
 print(f"{invite_list[2].title()} can't make it!")
 
 del invite_list[2]
 invite_list.insert(2, "keanu reeves")
-
+print()
 print(f"You are invited to dinner at my house, {invite_list[0].title()}.")
 print(f"You are invited to dinner at my house, {invite_list[1].title()}.")
 print(f"You are invited to dinner at my house, {invite_list[2].title()}.")
+print()
+print(f"{invite_list[0].title()}, I have found a bigger table.")
+print(f"{invite_list[1].title()}, I have found a bigger table.")
+print(f"{invite_list[2].title()}, I have found a bigger table.")
+print()
+invite_list.insert(0, "picasso")
+invite_list.insert(2, "davinci")
+invite_list.append("van gogh")
 
+print(f"You are also invited to dinner at my house, {invite_list[0].title()}.")
+print(f"You are also invited to dinner at my house, {invite_list[2].title()}.")
+print(f"You are also invited to dinner at my house, {invite_list[5].title()}.")
+print()
+print("My table won't arrive on time!")
+print()
+cant_invite = invite_list.pop()
+print(f"I am sorry, {cant_invite.title()}, but I cannot invite you to dinner")
+cant_invite = invite_list.pop()
+print(f"I am sorry, {cant_invite.title()}, but I cannot invite you to dinner")
+cant_invite = invite_list.pop()
+print(f"I am sorry, {cant_invite.title()}, but I cannot invite you to dinner")
+cant_invite = invite_list.pop()
+print(f"I am sorry, {cant_invite.title()}, but I cannot invite you to dinner")
+print()
+
+print(f"I can still invite you, {invite_list[0].title()}.")
+print(f"I can still invite you, {invite_list[1].title()}.")
+
+del invite_list[0]
+del invite_list[0]
+
+print (invite_list)
