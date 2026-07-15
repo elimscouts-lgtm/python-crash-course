@@ -6,3 +6,4 @@ friend_pizzas = pizzas[:]
 friend_pizzas.append("pineaple")
 for friend_pizza in friend_pizzas:
     print(f"A type of pizza that my friend likes is {friend_pizza}.")
+print("My friend likes pizza more than me.")
